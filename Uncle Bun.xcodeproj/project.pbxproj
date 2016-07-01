@@ -16,6 +16,7 @@
 		ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED96AC731D26F425009F167B /* LaunchScreen.storyboard */; };
 		ED96AC801D26F425009F167B /* Uncle_BunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC7F1D26F425009F167B /* Uncle_BunTests.m */; };
 		ED96AC8B1D26F425009F167B /* Uncle_BunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC8A1D26F425009F167B /* Uncle_BunUITests.m */; };
+		ED96AC9A1D270895009F167B /* UBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC991D270895009F167B /* UBColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		ED96AC861D26F425009F167B /* Uncle BunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uncle BunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96AC8A1D26F425009F167B /* Uncle_BunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uncle_BunUITests.m; sourceTree = "<group>"; };
 		ED96AC8C1D26F425009F167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED96AC981D270895009F167B /* UBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBColor.h; sourceTree = "<group>"; };
+		ED96AC991D270895009F167B /* UBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				ED96AC731D26F425009F167B /* LaunchScreen.storyboard */,
 				ED96AC761D26F425009F167B /* Info.plist */,
 				ED96AC621D26F425009F167B /* Supporting Files */,
+				ED96AC981D270895009F167B /* UBColor.h */,
+				ED96AC991D270895009F167B /* UBColor.m */,
 			);
 			path = "Uncle Bun";
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				ED96AC6D1D26F425009F167B /* SecondViewController.m in Sources */,
 				ED96AC671D26F425009F167B /* AppDelegate.m in Sources */,
 				ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */,
+				ED96AC9A1D270895009F167B /* UBColor.m in Sources */,
 				ED96AC641D26F425009F167B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

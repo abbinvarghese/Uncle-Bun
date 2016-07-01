@@ -19,18 +19,20 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F1T-e4-OMB">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Mg-iui">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                            <tabBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUX-8y-WXp">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items/>
-                            </toolbar>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="F1T-e4-OMB" secondAttribute="trailing" id="0mb-Er-Xth"/>
+                            <constraint firstItem="kUX-8y-WXp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="3Tc-eu-65p"/>
+                            <constraint firstAttribute="trailing" secondItem="kUX-8y-WXp" secondAttribute="trailing" id="ILu-Kp-HEX"/>
                             <constraint firstItem="F1T-e4-OMB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="MeI-Vg-cwA"/>
-                            <constraint firstAttribute="trailing" secondItem="ljI-Mg-iui" secondAttribute="trailing" id="OQ9-mA-xe3"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ljI-Mg-iui" secondAttribute="bottom" id="UCr-Nd-MUj"/>
-                            <constraint firstItem="ljI-Mg-iui" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bQX-Iy-4jC"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kUX-8y-WXp" secondAttribute="bottom" id="YXs-ry-yOY"/>
                             <constraint firstItem="F1T-e4-OMB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hfF-Rb-hXe"/>
                         </constraints>
                     </view>
