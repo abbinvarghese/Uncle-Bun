@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED96AC641D26F425009F167B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC631D26F425009F167B /* main.m */; };
+		ED96AC671D26F425009F167B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC661D26F425009F167B /* AppDelegate.m */; };
+		ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC691D26F425009F167B /* FirstViewController.m */; };
+		ED96AC6D1D26F425009F167B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC6C1D26F425009F167B /* SecondViewController.m */; };
+		ED96AC701D26F425009F167B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED96AC6E1D26F425009F167B /* Main.storyboard */; };
+		ED96AC721D26F425009F167B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED96AC711D26F425009F167B /* Assets.xcassets */; };
+		ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED96AC731D26F425009F167B /* LaunchScreen.storyboard */; };
+		ED96AC801D26F425009F167B /* Uncle_BunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC7F1D26F425009F167B /* Uncle_BunTests.m */; };
+		ED96AC8B1D26F425009F167B /* Uncle_BunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC8A1D26F425009F167B /* Uncle_BunUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED96AC7C1D26F425009F167B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED96AC571D26F425009F167B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED96AC5E1D26F425009F167B;
+			remoteInfo = "Uncle Bun";
+		};
+		ED96AC871D26F425009F167B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED96AC571D26F425009F167B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED96AC5E1D26F425009F167B;
+			remoteInfo = "Uncle Bun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED96AC5F1D26F425009F167B /* Uncle Bun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uncle Bun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED96AC631D26F425009F167B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED96AC651D26F425009F167B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED96AC661D26F425009F167B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED96AC681D26F425009F167B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ED96AC691D26F425009F167B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ED96AC6B1D26F425009F167B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ED96AC6C1D26F425009F167B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ED96AC6F1D26F425009F167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED96AC711D26F425009F167B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED96AC741D26F425009F167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED96AC761D26F425009F167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED96AC7B1D26F425009F167B /* Uncle BunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uncle BunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED96AC7F1D26F425009F167B /* Uncle_BunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uncle_BunTests.m; sourceTree = "<group>"; };
+		ED96AC811D26F425009F167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED96AC861D26F425009F167B /* Uncle BunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uncle BunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED96AC8A1D26F425009F167B /* Uncle_BunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uncle_BunUITests.m; sourceTree = "<group>"; };
+		ED96AC8C1D26F425009F167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED96AC5C1D26F425009F167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC781D26F425009F167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC831D26F425009F167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED96AC561D26F425009F167B = {
+			isa = PBXGroup;
+			children = (
+				ED96AC611D26F425009F167B /* Uncle Bun */,
+				ED96AC7E1D26F425009F167B /* Uncle BunTests */,
+				ED96AC891D26F425009F167B /* Uncle BunUITests */,
+				ED96AC601D26F425009F167B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED96AC601D26F425009F167B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED96AC5F1D26F425009F167B /* Uncle Bun.app */,
+				ED96AC7B1D26F425009F167B /* Uncle BunTests.xctest */,
+				ED96AC861D26F425009F167B /* Uncle BunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED96AC611D26F425009F167B /* Uncle Bun */ = {
+			isa = PBXGroup;
+			children = (
+				ED96AC651D26F425009F167B /* AppDelegate.h */,
+				ED96AC661D26F425009F167B /* AppDelegate.m */,
+				ED96AC681D26F425009F167B /* FirstViewController.h */,
+				ED96AC691D26F425009F167B /* FirstViewController.m */,
+				ED96AC6B1D26F425009F167B /* SecondViewController.h */,
+				ED96AC6C1D26F425009F167B /* SecondViewController.m */,
+				ED96AC6E1D26F425009F167B /* Main.storyboard */,
+				ED96AC711D26F425009F167B /* Assets.xcassets */,
+				ED96AC731D26F425009F167B /* LaunchScreen.storyboard */,
+				ED96AC761D26F425009F167B /* Info.plist */,
+				ED96AC621D26F425009F167B /* Supporting Files */,
+			);
+			path = "Uncle Bun";
+			sourceTree = "<group>";
+		};
+		ED96AC621D26F425009F167B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED96AC631D26F425009F167B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED96AC7E1D26F425009F167B /* Uncle BunTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED96AC7F1D26F425009F167B /* Uncle_BunTests.m */,
+				ED96AC811D26F425009F167B /* Info.plist */,
+			);
+			path = "Uncle BunTests";
+			sourceTree = "<group>";
+		};
+		ED96AC891D26F425009F167B /* Uncle BunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED96AC8A1D26F425009F167B /* Uncle_BunUITests.m */,
+				ED96AC8C1D26F425009F167B /* Info.plist */,
+			);
+			path = "Uncle BunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED96AC5E1D26F425009F167B /* Uncle Bun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED96AC8F1D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle Bun" */;
+			buildPhases = (
+				ED96AC5B1D26F425009F167B /* Sources */,
+				ED96AC5C1D26F425009F167B /* Frameworks */,
+				ED96AC5D1D26F425009F167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uncle Bun";
+			productName = "Uncle Bun";
+			productReference = ED96AC5F1D26F425009F167B /* Uncle Bun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED96AC7A1D26F425009F167B /* Uncle BunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED96AC921D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunTests" */;
+			buildPhases = (
+				ED96AC771D26F425009F167B /* Sources */,
+				ED96AC781D26F425009F167B /* Frameworks */,
+				ED96AC791D26F425009F167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED96AC7D1D26F425009F167B /* PBXTargetDependency */,
+			);
+			name = "Uncle BunTests";
+			productName = "Uncle BunTests";
+			productReference = ED96AC7B1D26F425009F167B /* Uncle BunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED96AC851D26F425009F167B /* Uncle BunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED96AC951D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunUITests" */;
+			buildPhases = (
+				ED96AC821D26F425009F167B /* Sources */,
+				ED96AC831D26F425009F167B /* Frameworks */,
+				ED96AC841D26F425009F167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED96AC881D26F425009F167B /* PBXTargetDependency */,
+			);
+			name = "Uncle BunUITests";
+			productName = "Uncle BunUITests";
+			productReference = ED96AC861D26F425009F167B /* Uncle BunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED96AC571D26F425009F167B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abbin Varghese";
+				TargetAttributes = {
+					ED96AC5E1D26F425009F167B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ED96AC7A1D26F425009F167B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED96AC5E1D26F425009F167B;
+					};
+					ED96AC851D26F425009F167B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED96AC5E1D26F425009F167B;
+					};
+				};
+			};
+			buildConfigurationList = ED96AC5A1D26F425009F167B /* Build configuration list for PBXProject "Uncle Bun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED96AC561D26F425009F167B;
+			productRefGroup = ED96AC601D26F425009F167B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED96AC5E1D26F425009F167B /* Uncle Bun */,
+				ED96AC7A1D26F425009F167B /* Uncle BunTests */,
+				ED96AC851D26F425009F167B /* Uncle BunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED96AC5D1D26F425009F167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */,
+				ED96AC721D26F425009F167B /* Assets.xcassets in Resources */,
+				ED96AC701D26F425009F167B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC791D26F425009F167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC841D26F425009F167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED96AC5B1D26F425009F167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED96AC6D1D26F425009F167B /* SecondViewController.m in Sources */,
+				ED96AC671D26F425009F167B /* AppDelegate.m in Sources */,
+				ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */,
+				ED96AC641D26F425009F167B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC771D26F425009F167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED96AC801D26F425009F167B /* Uncle_BunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED96AC821D26F425009F167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED96AC8B1D26F425009F167B /* Uncle_BunUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED96AC7D1D26F425009F167B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED96AC5E1D26F425009F167B /* Uncle Bun */;
+			targetProxy = ED96AC7C1D26F425009F167B /* PBXContainerItemProxy */;
+		};
+		ED96AC881D26F425009F167B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED96AC5E1D26F425009F167B /* Uncle Bun */;
+			targetProxy = ED96AC871D26F425009F167B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED96AC6E1D26F425009F167B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED96AC6F1D26F425009F167B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED96AC731D26F425009F167B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED96AC741D26F425009F167B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED96AC8D1D26F425009F167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED96AC8E1D26F425009F167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED96AC901D26F425009F167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Uncle Bun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-Bun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED96AC911D26F425009F167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Uncle Bun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-Bun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED96AC931D26F425009F167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uncle BunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-BunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uncle Bun.app/Uncle Bun";
+			};
+			name = Debug;
+		};
+		ED96AC941D26F425009F167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uncle BunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-BunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uncle Bun.app/Uncle Bun";
+			};
+			name = Release;
+		};
+		ED96AC961D26F425009F167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Uncle BunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-BunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uncle Bun";
+			};
+			name = Debug;
+		};
+		ED96AC971D26F425009F167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Uncle BunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ThePaadamCompany.Uncle-BunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uncle Bun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED96AC5A1D26F425009F167B /* Build configuration list for PBXProject "Uncle Bun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED96AC8D1D26F425009F167B /* Debug */,
+				ED96AC8E1D26F425009F167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED96AC8F1D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle Bun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED96AC901D26F425009F167B /* Debug */,
+				ED96AC911D26F425009F167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED96AC921D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED96AC931D26F425009F167B /* Debug */,
+				ED96AC941D26F425009F167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED96AC951D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED96AC961D26F425009F167B /* Debug */,
+				ED96AC971D26F425009F167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED96AC571D26F425009F167B /* Project object */;
+}
