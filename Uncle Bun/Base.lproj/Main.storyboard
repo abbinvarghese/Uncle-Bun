@@ -148,30 +148,30 @@
                                     <constraint firstAttribute="height" constant="44" id="K0h-12-htr"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LX3-lr-9RD">
-                                <rect key="frame" x="0.0" y="307" width="375" height="211"/>
-                                <color key="backgroundColor" red="0.95686274510000002" green="0.26274509800000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2x-d2-xfT">
+                                <rect key="frame" x="0.0" y="297" width="375" height="211"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="LX3-lr-9RD" secondAttribute="height" multiplier="16:9" id="SeF-er-ziv"/>
+                                    <constraint firstAttribute="width" secondItem="E2x-d2-xfT" secondAttribute="height" multiplier="16:9" id="dfS-qY-LwV"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jNb-sX-PUt" firstAttribute="top" secondItem="E2x-d2-xfT" secondAttribute="bottom" constant="30" id="3eE-l2-2kS"/>
                             <constraint firstAttribute="trailing" secondItem="RZf-bl-Da5" secondAttribute="trailing" constant="20" id="4Od-kJ-L7E"/>
                             <constraint firstAttribute="trailing" secondItem="Gdd-tx-auk" secondAttribute="trailing" id="5N4-5p-MOl"/>
+                            <constraint firstAttribute="trailing" secondItem="E2x-d2-xfT" secondAttribute="trailing" id="5sE-7d-prs"/>
                             <constraint firstAttribute="trailing" secondItem="jNb-sX-PUt" secondAttribute="trailing" constant="10" id="7Yx-Yn-S5d"/>
                             <constraint firstAttribute="trailing" secondItem="ffz-a4-DZ7" secondAttribute="trailing" constant="20" id="DI6-tN-U6c"/>
                             <constraint firstItem="ffz-a4-DZ7" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Gtk-TK-PEL"/>
                             <constraint firstItem="RZf-bl-Da5" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Lp5-Oq-2MI"/>
-                            <constraint firstItem="jNb-sX-PUt" firstAttribute="top" secondItem="LX3-lr-9RD" secondAttribute="bottom" constant="20" id="Lzu-2v-ezd"/>
                             <constraint firstItem="ffz-a4-DZ7" firstAttribute="centerY" secondItem="FYL-pE-dYJ" secondAttribute="centerY" multiplier="0.3" id="Oe4-NC-3op"/>
                             <constraint firstItem="jNb-sX-PUt" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="10" id="Sq6-bg-tSf"/>
-                            <constraint firstAttribute="trailing" secondItem="LX3-lr-9RD" secondAttribute="trailing" id="V2T-jh-tfj"/>
                             <constraint firstItem="3cd-fE-vV3" firstAttribute="top" secondItem="Gdd-tx-auk" secondAttribute="bottom" id="WFI-Qh-sUR"/>
+                            <constraint firstItem="E2x-d2-xfT" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" id="fAS-Ag-RVY"/>
                             <constraint firstItem="Gdd-tx-auk" firstAttribute="top" secondItem="RZf-bl-Da5" secondAttribute="bottom" constant="8" id="fKx-tl-3pQ"/>
                             <constraint firstItem="Gdd-tx-auk" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" id="fP6-OY-OG4"/>
-                            <constraint firstItem="LX3-lr-9RD" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" id="gbW-gF-kEj"/>
                             <constraint firstItem="RZf-bl-Da5" firstAttribute="top" secondItem="jNb-sX-PUt" secondAttribute="bottom" id="q3E-PM-0U2"/>
                         </constraints>
                     </view>
@@ -180,6 +180,7 @@
                         <outlet property="HeaderLabel" destination="ffz-a4-DZ7" id="pee-vO-DeQ"/>
                         <outlet property="facebookLoginButton" destination="jNb-sX-PUt" id="5tZ-K9-Ve3"/>
                         <outlet property="labelConstrain" destination="Oe4-NC-3op" id="Ouv-3i-j60"/>
+                        <outlet property="playerView" destination="E2x-d2-xfT" id="hOl-7O-xYZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yH-jl-SdL" userLabel="First Responder" sceneMemberID="firstResponder"/>

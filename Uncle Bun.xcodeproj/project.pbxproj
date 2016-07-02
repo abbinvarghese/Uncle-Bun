@@ -17,6 +17,7 @@
 		ED4140021D27A17900D50AE0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED413FFF1D27A17900D50AE0 /* FBSDKShareKit.framework */; };
 		ED4140051D27A42800D50AE0 /* UBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140041D27A42800D50AE0 /* UBTabBarController.m */; };
 		ED4140081D27A4A000D50AE0 /* UBSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */; };
+		ED41400A1D27F1DF00D50AE0 /* IMG_0101.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */; };
 		ED96AC641D26F425009F167B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC631D26F425009F167B /* main.m */; };
 		ED96AC671D26F425009F167B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC661D26F425009F167B /* AppDelegate.m */; };
 		ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC691D26F425009F167B /* FirstViewController.m */; };
@@ -66,6 +67,7 @@
 		ED4140041D27A42800D50AE0 /* UBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTabBarController.m; sourceTree = "<group>"; };
 		ED4140061D27A4A000D50AE0 /* UBSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignInViewController.h; sourceTree = "<group>"; };
 		ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignInViewController.m; sourceTree = "<group>"; };
+		ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0101.mp4; sourceTree = "<group>"; };
 		ED96AC5F1D26F425009F167B /* Uncle Bun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uncle Bun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96AC631D26F425009F167B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED96AC651D26F425009F167B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				ED96AC731D26F425009F167B /* LaunchScreen.storyboard */,
 				ED96AC761D26F425009F167B /* Info.plist */,
 				ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */,
+				ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */,
 				ED96AC621D26F425009F167B /* Supporting Files */,
 				ED96AC981D270895009F167B /* UBColor.h */,
 				ED96AC991D270895009F167B /* UBColor.m */,
@@ -335,6 +338,7 @@
 				ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */,
 				ED413FF91D279FF000D50AE0 /* GoogleService-Info.plist in Resources */,
 				ED96AC721D26F425009F167B /* Assets.xcassets in Resources */,
+				ED41400A1D27F1DF00D50AE0 /* IMG_0101.mp4 in Resources */,
 				ED96AC701D26F425009F167B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
