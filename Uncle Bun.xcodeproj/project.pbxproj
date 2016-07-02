@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DDC41A3BCC696B56AB401EF /* libPods-Uncle Bun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34A13F96985A1CE28593B88 /* libPods-Uncle Bun.a */; };
+		218DCEB788FEAE95185E0BDF /* libPods-Uncle BunUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56906BD50E6A1143EC99C3D /* libPods-Uncle BunUITests.a */; };
+		3ADEB667225F8FA7ED6DA474 /* libPods-Uncle BunTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9DB1C231BD716292DCDB60 /* libPods-Uncle BunTests.a */; };
+		ED413FF91D279FF000D50AE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */; };
+		ED413FFC1D27A06900D50AE0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED413FFB1D27A06900D50AE0 /* ThirdViewController.m */; };
+		ED4140001D27A17900D50AE0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED413FFD1D27A17900D50AE0 /* FBSDKCoreKit.framework */; };
+		ED4140011D27A17900D50AE0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED413FFE1D27A17900D50AE0 /* FBSDKLoginKit.framework */; };
+		ED4140021D27A17900D50AE0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED413FFF1D27A17900D50AE0 /* FBSDKShareKit.framework */; };
+		ED4140051D27A42800D50AE0 /* UBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140041D27A42800D50AE0 /* UBTabBarController.m */; };
+		ED4140081D27A4A000D50AE0 /* UBSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */; };
 		ED96AC641D26F425009F167B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC631D26F425009F167B /* main.m */; };
 		ED96AC671D26F425009F167B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC661D26F425009F167B /* AppDelegate.m */; };
 		ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC691D26F425009F167B /* FirstViewController.m */; };
@@ -37,6 +47,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4475A26521DBDE49C317D6B2 /* Pods-Uncle BunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle BunUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle BunUITests/Pods-Uncle BunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F32A381B6ADF23AB9CC377B /* Pods-Uncle BunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle BunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle BunTests/Pods-Uncle BunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D703FFF0F95195C2ED25CA1B /* Pods-Uncle Bun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle Bun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9DB1C231BD716292DCDB60 /* libPods-Uncle BunTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uncle BunTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FE1DA0E9DECE206EA3EA09 /* Pods-Uncle BunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle BunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle BunTests/Pods-Uncle BunTests.release.xcconfig"; sourceTree = "<group>"; };
+		E34A13F96985A1CE28593B88 /* libPods-Uncle Bun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uncle Bun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CF153E755D2D4F3449C0F7 /* Pods-Uncle Bun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle Bun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun.release.xcconfig"; sourceTree = "<group>"; };
+		E4D6B573CC35A0664C435CCE /* Pods-Uncle BunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle BunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle BunUITests/Pods-Uncle BunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E56906BD50E6A1143EC99C3D /* libPods-Uncle BunUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uncle BunUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED413FFA1D27A06900D50AE0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		ED413FFB1D27A06900D50AE0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		ED413FFD1D27A17900D50AE0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ED413FFE1D27A17900D50AE0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		ED413FFF1D27A17900D50AE0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		ED4140031D27A42800D50AE0 /* UBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBTabBarController.h; sourceTree = "<group>"; };
+		ED4140041D27A42800D50AE0 /* UBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTabBarController.m; sourceTree = "<group>"; };
+		ED4140061D27A4A000D50AE0 /* UBSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignInViewController.h; sourceTree = "<group>"; };
+		ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignInViewController.m; sourceTree = "<group>"; };
 		ED96AC5F1D26F425009F167B /* Uncle Bun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uncle Bun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96AC631D26F425009F167B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED96AC651D26F425009F167B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +93,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4140021D27A17900D50AE0 /* FBSDKShareKit.framework in Frameworks */,
+				1DDC41A3BCC696B56AB401EF /* libPods-Uncle Bun.a in Frameworks */,
+				ED4140001D27A17900D50AE0 /* FBSDKCoreKit.framework in Frameworks */,
+				ED4140011D27A17900D50AE0 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADEB667225F8FA7ED6DA474 /* libPods-Uncle BunTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +112,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218DCEB788FEAE95185E0BDF /* libPods-Uncle BunUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5F066734D03E6E466676E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED413FFD1D27A17900D50AE0 /* FBSDKCoreKit.framework */,
+				ED413FFE1D27A17900D50AE0 /* FBSDKLoginKit.framework */,
+				ED413FFF1D27A17900D50AE0 /* FBSDKShareKit.framework */,
+				E34A13F96985A1CE28593B88 /* libPods-Uncle Bun.a */,
+				DF9DB1C231BD716292DCDB60 /* libPods-Uncle BunTests.a */,
+				E56906BD50E6A1143EC99C3D /* libPods-Uncle BunUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46023081008DD39AD7B500F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D703FFF0F95195C2ED25CA1B /* Pods-Uncle Bun.debug.xcconfig */,
+				E3CF153E755D2D4F3449C0F7 /* Pods-Uncle Bun.release.xcconfig */,
+				5F32A381B6ADF23AB9CC377B /* Pods-Uncle BunTests.debug.xcconfig */,
+				E0FE1DA0E9DECE206EA3EA09 /* Pods-Uncle BunTests.release.xcconfig */,
+				E4D6B573CC35A0664C435CCE /* Pods-Uncle BunUITests.debug.xcconfig */,
+				4475A26521DBDE49C317D6B2 /* Pods-Uncle BunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED96AC561D26F425009F167B = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +152,8 @@
 				ED96AC7E1D26F425009F167B /* Uncle BunTests */,
 				ED96AC891D26F425009F167B /* Uncle BunUITests */,
 				ED96AC601D26F425009F167B /* Products */,
+				46023081008DD39AD7B500F7 /* Pods */,
+				0D5F066734D03E6E466676E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,10 +176,17 @@
 				ED96AC691D26F425009F167B /* FirstViewController.m */,
 				ED96AC6B1D26F425009F167B /* SecondViewController.h */,
 				ED96AC6C1D26F425009F167B /* SecondViewController.m */,
+				ED413FFA1D27A06900D50AE0 /* ThirdViewController.h */,
+				ED413FFB1D27A06900D50AE0 /* ThirdViewController.m */,
+				ED4140031D27A42800D50AE0 /* UBTabBarController.h */,
+				ED4140041D27A42800D50AE0 /* UBTabBarController.m */,
+				ED4140061D27A4A000D50AE0 /* UBSignInViewController.h */,
+				ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */,
 				ED96AC6E1D26F425009F167B /* Main.storyboard */,
 				ED96AC711D26F425009F167B /* Assets.xcassets */,
 				ED96AC731D26F425009F167B /* LaunchScreen.storyboard */,
 				ED96AC761D26F425009F167B /* Info.plist */,
+				ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */,
 				ED96AC621D26F425009F167B /* Supporting Files */,
 				ED96AC981D270895009F167B /* UBColor.h */,
 				ED96AC991D270895009F167B /* UBColor.m */,
@@ -157,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED96AC8F1D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle Bun" */;
 			buildPhases = (
+				56AC9ACED137897A36215738 /* [CP] Check Pods Manifest.lock */,
 				ED96AC5B1D26F425009F167B /* Sources */,
 				ED96AC5C1D26F425009F167B /* Frameworks */,
 				ED96AC5D1D26F425009F167B /* Resources */,
+				B7BCC8871708358BB01C269E /* [CP] Embed Pods Frameworks */,
+				C73FD06837B809F4BE23CDA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED96AC921D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunTests" */;
 			buildPhases = (
+				A0795B4513BAD5EBD0B07310 /* [CP] Check Pods Manifest.lock */,
 				ED96AC771D26F425009F167B /* Sources */,
 				ED96AC781D26F425009F167B /* Frameworks */,
 				ED96AC791D26F425009F167B /* Resources */,
+				049995970F9BBA126A4EA880 /* [CP] Embed Pods Frameworks */,
+				BF60373297CD3125B05858C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED96AC951D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunUITests" */;
 			buildPhases = (
+				B41EA7FA47AF69BCF481C844 /* [CP] Check Pods Manifest.lock */,
 				ED96AC821D26F425009F167B /* Sources */,
 				ED96AC831D26F425009F167B /* Frameworks */,
 				ED96AC841D26F425009F167B /* Resources */,
+				24DE6416C910739C88E3CA43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +290,7 @@
 		ED96AC571D26F425009F167B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = UB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Abbin Varghese";
 				TargetAttributes = {
@@ -254,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */,
+				ED413FF91D279FF000D50AE0 /* GoogleService-Info.plist in Resources */,
 				ED96AC721D26F425009F167B /* Assets.xcassets in Resources */,
 				ED96AC701D26F425009F167B /* Main.storyboard in Resources */,
 			);
@@ -275,16 +355,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		049995970F9BBA126A4EA880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle BunTests/Pods-Uncle BunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24DE6416C910739C88E3CA43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle BunUITests/Pods-Uncle BunUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56AC9ACED137897A36215738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0795B4513BAD5EBD0B07310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B41EA7FA47AF69BCF481C844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BCC8871708358BB01C269E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF60373297CD3125B05858C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle BunTests/Pods-Uncle BunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73FD06837B809F4BE23CDA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED96AC5B1D26F425009F167B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED96AC6D1D26F425009F167B /* SecondViewController.m in Sources */,
+				ED4140081D27A4A000D50AE0 /* UBSignInViewController.m in Sources */,
 				ED96AC671D26F425009F167B /* AppDelegate.m in Sources */,
+				ED413FFC1D27A06900D50AE0 /* ThirdViewController.m in Sources */,
 				ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */,
 				ED96AC9A1D270895009F167B /* UBColor.m in Sources */,
 				ED96AC641D26F425009F167B /* main.m in Sources */,
+				ED4140051D27A42800D50AE0 /* UBTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +629,13 @@
 		};
 		ED96AC901D26F425009F167B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D703FFF0F95195C2ED25CA1B /* Pods-Uncle Bun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Uncle Bun/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,8 +646,13 @@
 		};
 		ED96AC911D26F425009F167B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CF153E755D2D4F3449C0F7 /* Pods-Uncle Bun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Uncle Bun/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,6 +663,7 @@
 		};
 		ED96AC931D26F425009F167B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F32A381B6ADF23AB9CC377B /* Pods-Uncle BunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Uncle BunTests/Info.plist";
@@ -459,6 +676,7 @@
 		};
 		ED96AC941D26F425009F167B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FE1DA0E9DECE206EA3EA09 /* Pods-Uncle BunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Uncle BunTests/Info.plist";
@@ -471,6 +689,7 @@
 		};
 		ED96AC961D26F425009F167B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D6B573CC35A0664C435CCE /* Pods-Uncle BunUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Uncle BunUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +701,7 @@
 		};
 		ED96AC971D26F425009F167B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4475A26521DBDE49C317D6B2 /* Pods-Uncle BunUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Uncle BunUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +730,7 @@
 				ED96AC911D26F425009F167B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED96AC921D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +739,7 @@
 				ED96AC941D26F425009F167B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED96AC951D26F425009F167B /* Build configuration list for PBXNativeTarget "Uncle BunUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +748,7 @@
 				ED96AC971D26F425009F167B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
