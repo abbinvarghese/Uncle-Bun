@@ -118,7 +118,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffz-a4-DZ7">
-                                <rect key="frame" x="20" y="109" width="335" height="48"/>
+                                <rect key="frame" x="20" y="76" width="335" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -148,8 +148,9 @@
                                     <constraint firstAttribute="height" constant="44" id="K0h-12-htr"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign in header" translatesAutoresizingMaskIntoConstraints="NO" id="LX3-lr-9RD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LX3-lr-9RD">
                                 <rect key="frame" x="0.0" y="307" width="375" height="211"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.26274509800000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="LX3-lr-9RD" secondAttribute="height" multiplier="16:9" id="SeF-er-ziv"/>
                                 </constraints>
@@ -164,7 +165,7 @@
                             <constraint firstItem="ffz-a4-DZ7" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Gtk-TK-PEL"/>
                             <constraint firstItem="RZf-bl-Da5" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Lp5-Oq-2MI"/>
                             <constraint firstItem="jNb-sX-PUt" firstAttribute="top" secondItem="LX3-lr-9RD" secondAttribute="bottom" constant="20" id="Lzu-2v-ezd"/>
-                            <constraint firstItem="ffz-a4-DZ7" firstAttribute="centerY" secondItem="FYL-pE-dYJ" secondAttribute="centerY" multiplier="0.4" id="Oe4-NC-3op"/>
+                            <constraint firstItem="ffz-a4-DZ7" firstAttribute="centerY" secondItem="FYL-pE-dYJ" secondAttribute="centerY" multiplier="0.3" id="Oe4-NC-3op"/>
                             <constraint firstItem="jNb-sX-PUt" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="10" id="Sq6-bg-tSf"/>
                             <constraint firstAttribute="trailing" secondItem="LX3-lr-9RD" secondAttribute="trailing" id="V2T-jh-tfj"/>
                             <constraint firstItem="3cd-fE-vV3" firstAttribute="top" secondItem="Gdd-tx-auk" secondAttribute="bottom" id="WFI-Qh-sUR"/>
@@ -229,7 +230,6 @@
     <resources>
         <image name="first" width="32" height="32"/>
         <image name="second" width="32" height="32"/>
-        <image name="sign in header" width="453" height="250"/>
         <image name="third" width="32" height="32"/>
     </resources>
 </document>
