@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -117,11 +118,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffz-a4-DZ7">
-                                <rect key="frame" x="20" y="76" width="335" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdd-tx-auk">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <constraints>
@@ -149,10 +145,28 @@
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2x-d2-xfT">
-                                <rect key="frame" x="0.0" y="297" width="375" height="211"/>
+                                <rect key="frame" x="0.0" y="267" width="375" height="241"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="E2x-d2-xfT" secondAttribute="height" multiplier="14:9" id="dfS-qY-LwV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JzB-Hx-T6M">
+                                <rect key="frame" x="16" y="20" width="343" height="247"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="XZO-Yv-UwM">
+                                        <rect key="frame" x="98" y="50" width="148" height="148"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="XZO-Yv-UwM" secondAttribute="height" multiplier="1:1" id="lUb-fx-JCt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="E2x-d2-xfT" secondAttribute="height" multiplier="16:9" id="dfS-qY-LwV"/>
+                                    <constraint firstItem="XZO-Yv-UwM" firstAttribute="height" secondItem="JzB-Hx-T6M" secondAttribute="height" multiplier="0.6" id="6qS-TG-wHa"/>
+                                    <constraint firstItem="XZO-Yv-UwM" firstAttribute="centerX" secondItem="JzB-Hx-T6M" secondAttribute="centerX" id="Nuu-2v-y2j"/>
+                                    <constraint firstItem="XZO-Yv-UwM" firstAttribute="centerY" secondItem="JzB-Hx-T6M" secondAttribute="centerY" id="cOT-Wt-TtK"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -162,24 +176,24 @@
                             <constraint firstAttribute="trailing" secondItem="RZf-bl-Da5" secondAttribute="trailing" constant="20" id="4Od-kJ-L7E"/>
                             <constraint firstAttribute="trailing" secondItem="Gdd-tx-auk" secondAttribute="trailing" id="5N4-5p-MOl"/>
                             <constraint firstAttribute="trailing" secondItem="E2x-d2-xfT" secondAttribute="trailing" id="5sE-7d-prs"/>
+                            <constraint firstItem="E2x-d2-xfT" firstAttribute="top" secondItem="JzB-Hx-T6M" secondAttribute="bottom" id="6KX-SF-i9J"/>
                             <constraint firstAttribute="trailing" secondItem="jNb-sX-PUt" secondAttribute="trailing" constant="10" id="7Yx-Yn-S5d"/>
-                            <constraint firstAttribute="trailing" secondItem="ffz-a4-DZ7" secondAttribute="trailing" constant="20" id="DI6-tN-U6c"/>
-                            <constraint firstItem="ffz-a4-DZ7" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Gtk-TK-PEL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JzB-Hx-T6M" secondAttribute="trailing" id="Bg0-RN-fET"/>
                             <constraint firstItem="RZf-bl-Da5" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="20" id="Lp5-Oq-2MI"/>
-                            <constraint firstItem="ffz-a4-DZ7" firstAttribute="centerY" secondItem="FYL-pE-dYJ" secondAttribute="centerY" multiplier="0.3" id="Oe4-NC-3op"/>
+                            <constraint firstItem="JzB-Hx-T6M" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leadingMargin" id="RKW-YS-f3h"/>
                             <constraint firstItem="jNb-sX-PUt" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" constant="10" id="Sq6-bg-tSf"/>
                             <constraint firstItem="3cd-fE-vV3" firstAttribute="top" secondItem="Gdd-tx-auk" secondAttribute="bottom" id="WFI-Qh-sUR"/>
                             <constraint firstItem="E2x-d2-xfT" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" id="fAS-Ag-RVY"/>
                             <constraint firstItem="Gdd-tx-auk" firstAttribute="top" secondItem="RZf-bl-Da5" secondAttribute="bottom" constant="8" id="fKx-tl-3pQ"/>
                             <constraint firstItem="Gdd-tx-auk" firstAttribute="leading" secondItem="FYL-pE-dYJ" secondAttribute="leading" id="fP6-OY-OG4"/>
                             <constraint firstItem="RZf-bl-Da5" firstAttribute="top" secondItem="jNb-sX-PUt" secondAttribute="bottom" id="q3E-PM-0U2"/>
+                            <constraint firstItem="JzB-Hx-T6M" firstAttribute="top" secondItem="Ez3-rl-8XO" secondAttribute="bottom" id="zVn-rz-BSr"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="HeaderLabel" destination="ffz-a4-DZ7" id="pee-vO-DeQ"/>
                         <outlet property="facebookLoginButton" destination="jNb-sX-PUt" id="5tZ-K9-Ve3"/>
-                        <outlet property="labelConstrain" destination="Oe4-NC-3op" id="Ouv-3i-j60"/>
+                        <outlet property="logo" destination="XZO-Yv-UwM" id="qmf-3X-9MK"/>
                         <outlet property="playerView" destination="E2x-d2-xfT" id="hOl-7O-xYZ"/>
                     </connections>
                 </viewController>
@@ -230,6 +244,7 @@
     </scenes>
     <resources>
         <image name="first" width="32" height="32"/>
+        <image name="logo" width="125" height="125"/>
         <image name="second" width="32" height="32"/>
         <image name="third" width="32" height="32"/>
     </resources>

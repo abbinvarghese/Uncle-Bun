@@ -13,7 +13,7 @@
 @implementation UBColor
 
 +(UIColor*)UBRed{
-    return UIColorFromRGB(0xF44336);
+    return UIColorFromRGB(0xb0000e);
 }
 
 @end
