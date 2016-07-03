@@ -18,6 +18,7 @@
 		ED4140051D27A42800D50AE0 /* UBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140041D27A42800D50AE0 /* UBTabBarController.m */; };
 		ED4140081D27A4A000D50AE0 /* UBSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */; };
 		ED41400A1D27F1DF00D50AE0 /* IMG_0101.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */; };
+		ED519CE41D2987BD00B375B3 /* UBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED519CE31D2987BD00B375B3 /* UBConstants.m */; };
 		ED96AC641D26F425009F167B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC631D26F425009F167B /* main.m */; };
 		ED96AC671D26F425009F167B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC661D26F425009F167B /* AppDelegate.m */; };
 		ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96AC691D26F425009F167B /* FirstViewController.m */; };
@@ -68,6 +69,8 @@
 		ED4140061D27A4A000D50AE0 /* UBSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignInViewController.h; sourceTree = "<group>"; };
 		ED4140071D27A4A000D50AE0 /* UBSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignInViewController.m; sourceTree = "<group>"; };
 		ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0101.mp4; sourceTree = "<group>"; };
+		ED519CE21D2987BD00B375B3 /* UBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBConstants.h; sourceTree = "<group>"; };
+		ED519CE31D2987BD00B375B3 /* UBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBConstants.m; sourceTree = "<group>"; };
 		ED96AC5F1D26F425009F167B /* Uncle Bun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uncle Bun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96AC631D26F425009F167B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED96AC651D26F425009F167B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				ED96AC621D26F425009F167B /* Supporting Files */,
 				ED96AC981D270895009F167B /* UBColor.h */,
 				ED96AC991D270895009F167B /* UBColor.m */,
+				ED519CE21D2987BD00B375B3 /* UBConstants.h */,
+				ED519CE31D2987BD00B375B3 /* UBConstants.m */,
 			);
 			path = "Uncle Bun";
 			sourceTree = "<group>";
@@ -491,6 +496,7 @@
 				ED4140081D27A4A000D50AE0 /* UBSignInViewController.m in Sources */,
 				ED96AC671D26F425009F167B /* AppDelegate.m in Sources */,
 				ED413FFC1D27A06900D50AE0 /* ThirdViewController.m in Sources */,
+				ED519CE41D2987BD00B375B3 /* UBConstants.m in Sources */,
 				ED96AC6A1D26F425009F167B /* FirstViewController.m in Sources */,
 				ED96AC9A1D270895009F167B /* UBColor.m in Sources */,
 				ED96AC641D26F425009F167B /* main.m in Sources */,

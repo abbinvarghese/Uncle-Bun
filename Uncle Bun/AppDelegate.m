@@ -26,6 +26,13 @@
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
     [FBSDKLoginButton class];
+    
+    NSError *error;
+    [[FIRAuth auth] signOut:&error];
+    if (!error) {
+        // Sign-out succeeded
+    }
+    
     return YES;
 }
 

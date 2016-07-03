@@ -10,13 +10,16 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "UBConstants.h"
+
+@import Firebase;
 
 @interface UBSignInViewController ()<FBSDKLoginButtonDelegate>
 
 @property (weak, nonatomic) IBOutlet FBSDKLoginButton *facebookLoginButton;
 @property (weak, nonatomic) IBOutlet UIView *playerView;
 @property (nonatomic, strong) AVPlayer *avplayer;
-@property (weak, nonatomic) IBOutlet UIImageView *logo;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end
 
@@ -37,11 +40,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    NSLog(@"%f",_logo.frame.size.height);
-}
-
 - (void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     [self.avplayer pause];
@@ -57,7 +55,28 @@
 }
 
 -(void)loginButton:(FBSDKLoginButton *)loginButton didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result error:(NSError *)error{
-    
+    if (error == nil && [FBSDKAccessToken currentAccessToken]
+        .tokenString) {
+        self.view.userInteractionEnabled = NO;
+        [_activityIndicator startAnimating];
+        FIRAuthCredential *credential = [FIRFacebookAuthProvider
+                                         credentialWithAccessToken:[FBSDKAccessToken currentAccessToken]
+                                         .tokenString];
+        [[FIRAuth auth] signInWithCredential:credential
+                                  completion:^(FIRUser *user, NSError *error) {
+                                      [_activityIndicator stopAnimating];
+                                      self.view.userInteractionEnabled = YES;
+                                      if (error == nil) {
+                                          FIRDatabaseReference *ref = [[FIRDatabase database] reference];
+                                          NSDictionary *post = @{userIDKey: user.uid,
+                                                                 userIsAnonymousKey:[NSNumber numberWithBool:user.isAnonymous]};
+                                          NSDictionary *childUpdates = @{[@"/users/" stringByAppendingString:user.uid]: post};
+                                          [ref updateChildValues:childUpdates];
+                                          [self dismissViewControllerAnimated:YES completion:nil];
+                                      }
+                                  }];
+        
+    }
 }
 
 -(void)loginButtonDidLogOut:(FBSDKLoginButton *)loginButton{
@@ -106,5 +125,28 @@
     
 }
 
+- (IBAction)dismiss:(UIButton *)sender {
+    if ([FIRAuth auth].currentUser == nil) {
+        [_activityIndicator startAnimating];
+        self.view.userInteractionEnabled = NO;
+        [[FIRAuth auth]
+         signInAnonymouslyWithCompletion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
+             [_activityIndicator stopAnimating];
+             self.view.userInteractionEnabled = YES;
+             if (error == nil) {
+                 FIRDatabaseReference *ref = [[FIRDatabase database] reference];
+                 NSDictionary *post = @{userIDKey: user.uid,
+                                        userIsAnonymousKey:[NSNumber numberWithBool:user.isAnonymous]};
+                 NSDictionary *childUpdates = @{[@"/users/" stringByAppendingString:user.uid]: post};
+                 [ref updateChildValues:childUpdates];
+                 [self dismissViewControllerAnimated:YES completion:nil];
+             }
+         }];
+
+    }
+    else{
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
 
 @end
