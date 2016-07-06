@@ -40,6 +40,7 @@ NSString *const fuudTimeStampKey                = @"fuudTimeStamp";
 
 NSString *const userIDKey                       = @"userID";
 NSString *const userIsAnonymousKey              = @"userIsAnonymous";
+NSString *const userLocationKey                 = @"userLocation";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -73,14 +74,15 @@ NSString *const feedbackPathKey                 = @"feedbacks";
 #pragma mark - UX Keys -
 
 NSString *const firstCameraLaunchKey            = @"firstCameraLaunch";
+NSString *const firstLaunchKey                  = @"firstLaunch";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #pragma mark - Other Keys -
 
-NSString *const itunesAppUrl            = @"itunesAppUrl";
-NSString *const shareSMSText            = @"shareSMSText";
-NSString *const shareEmailTitle         = @"shareEmailTitle";
-NSString *const shareEmailText          = @"shareEmailText";
+NSString *const itunesAppUrl                    = @"itunesAppUrl";
+NSString *const shareSMSText                    = @"shareSMSText";
+NSString *const shareEmailTitle                 = @"shareEmailTitle";
+NSString *const shareEmailText                  = @"shareEmailText";
 
 @end

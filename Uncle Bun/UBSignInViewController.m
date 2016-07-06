@@ -11,6 +11,7 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "UBConstants.h"
+#import "UBFirstLocationViewController.h"
 
 @import Firebase;
 
@@ -68,7 +69,14 @@
                                                                  userIsAnonymousKey:[NSNumber numberWithBool:user.isAnonymous]};
                                           NSDictionary *childUpdates = @{[@"/users/" stringByAppendingString:user.uid]: post};
                                           [ref updateChildValues:childUpdates];
-                                          [self dismissViewControllerAnimated:YES completion:nil];
+                                          if (![[NSUserDefaults standardUserDefaults] boolForKey:firstLaunchKey]) {
+                                              UBFirstLocationViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"UBFirstLocationViewController"];
+                                              [self.navigationController pushViewController:newView animated:YES];
+                                          }
+                                          else{
+                                              [self dismissViewControllerAnimated:YES completion:nil];
+                                          }
+                                          
                                       }
                                   }];
         
@@ -135,7 +143,13 @@
                                         userIsAnonymousKey:[NSNumber numberWithBool:user.isAnonymous]};
                  NSDictionary *childUpdates = @{[@"/users/" stringByAppendingString:user.uid]: post};
                  [ref updateChildValues:childUpdates];
-                 [self dismissViewControllerAnimated:YES completion:nil];
+                 if (![[NSUserDefaults standardUserDefaults] boolForKey:firstLaunchKey]) {
+                     UBFirstLocationViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"UBFirstLocationViewController"];
+                     [self.navigationController pushViewController:newView animated:YES];
+                 }
+                 else{
+                     [self dismissViewControllerAnimated:YES completion:nil];
+                 }
              }
          }];
 

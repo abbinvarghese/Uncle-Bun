@@ -8,6 +8,7 @@
 
 #import "UBTabBarController.h"
 #import "UBSignInViewController.h"
+#import "UBConstants.h"
 
 @import Firebase;
 
@@ -28,10 +29,15 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    if([FIRAuth auth].currentUser == nil){
-        UBSignInViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"UBSignInViewController"];
-        [self presentViewController:vc animated:YES completion:nil];
-    }
+    [super viewDidAppear:animated];
+    [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,
+                                                    FIRUser *_Nullable user) {
+        if([FIRAuth auth].currentUser == nil && [[NSUserDefaults standardUserDefaults] boolForKey:firstLaunchKey]){
+            UBSignInViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"UBSignInViewController"];
+            [self presentViewController:vc animated:YES completion:nil];
+        }
+    }];
+
 }
 
 /*

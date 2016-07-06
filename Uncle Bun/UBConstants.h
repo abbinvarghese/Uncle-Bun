@@ -40,6 +40,7 @@ FOUNDATION_EXPORT NSString *const fuudTimeStampKey;
 
 FOUNDATION_EXPORT NSString *const userIDKey;
 FOUNDATION_EXPORT NSString *const userIsAnonymousKey;
+FOUNDATION_EXPORT NSString *const userLocationKey;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -73,6 +74,7 @@ FOUNDATION_EXPORT NSString *const feedbackPathKey;
 #pragma mark - UX Keys -
 
 FOUNDATION_EXPORT NSString *const firstCameraLaunchKey;
+FOUNDATION_EXPORT NSString *const firstLaunchKey;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
