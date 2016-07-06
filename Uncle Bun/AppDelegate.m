@@ -15,6 +15,8 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic, strong) FIRRemoteConfig *remoteConfig;
+
 @end
 
 @implementation AppDelegate
@@ -27,11 +29,16 @@
                              didFinishLaunchingWithOptions:launchOptions];
     [FBSDKLoginButton class];
     
-    NSError *error;
-    [[FIRAuth auth] signOut:&error];
-    if (!error) {
-        // Sign-out succeeded
-    }
+    self.remoteConfig = [FIRRemoteConfig remoteConfig];
+    FIRRemoteConfigSettings *remoteConfigSettings = [[FIRRemoteConfigSettings alloc] initWithDeveloperModeEnabled:YES];
+    self.remoteConfig.configSettings = remoteConfigSettings;
+    [self.remoteConfig setDefaultsFromPlistFileName:@"RemoteConfigDefaults"];
+    
+    [self.remoteConfig fetchWithCompletionHandler:^(FIRRemoteConfigFetchStatus status, NSError * _Nullable error) {
+        if (status == FIRRemoteConfigFetchStatusSuccess) {
+            [self.remoteConfig activateFetched];
+        }
+    }];
     
     return YES;
 }

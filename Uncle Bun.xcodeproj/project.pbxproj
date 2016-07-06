@@ -10,6 +10,8 @@
 		1DDC41A3BCC696B56AB401EF /* libPods-Uncle Bun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34A13F96985A1CE28593B88 /* libPods-Uncle Bun.a */; };
 		218DCEB788FEAE95185E0BDF /* libPods-Uncle BunUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56906BD50E6A1143EC99C3D /* libPods-Uncle BunUITests.a */; };
 		3ADEB667225F8FA7ED6DA474 /* libPods-Uncle BunTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9DB1C231BD716292DCDB60 /* libPods-Uncle BunTests.a */; };
+		ED0AAB6A1D2BF55E00B4C40D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0AAB691D2BF55E00B4C40D /* MessageUI.framework */; };
+		ED0AAB6C1D2BFE1700B4C40D /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED0AAB6B1D2BFE1700B4C40D /* RemoteConfigDefaults.plist */; };
 		ED413FF91D279FF000D50AE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */; };
 		ED413FFC1D27A06900D50AE0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED413FFB1D27A06900D50AE0 /* ThirdViewController.m */; };
 		ED4140001D27A17900D50AE0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED413FFD1D27A17900D50AE0 /* FBSDKCoreKit.framework */; };
@@ -58,6 +60,8 @@
 		E3CF153E755D2D4F3449C0F7 /* Pods-Uncle Bun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle Bun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun.release.xcconfig"; sourceTree = "<group>"; };
 		E4D6B573CC35A0664C435CCE /* Pods-Uncle BunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncle BunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uncle BunUITests/Pods-Uncle BunUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E56906BD50E6A1143EC99C3D /* libPods-Uncle BunUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uncle BunUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0AAB691D2BF55E00B4C40D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ED0AAB6B1D2BFE1700B4C40D /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED413FFA1D27A06900D50AE0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		ED413FFB1D27A06900D50AE0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0AAB6A1D2BF55E00B4C40D /* MessageUI.framework in Frameworks */,
 				ED4140021D27A17900D50AE0 /* FBSDKShareKit.framework in Frameworks */,
 				1DDC41A3BCC696B56AB401EF /* libPods-Uncle Bun.a in Frameworks */,
 				ED4140001D27A17900D50AE0 /* FBSDKCoreKit.framework in Frameworks */,
@@ -127,6 +132,7 @@
 		0D5F066734D03E6E466676E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED0AAB691D2BF55E00B4C40D /* MessageUI.framework */,
 				ED413FFD1D27A17900D50AE0 /* FBSDKCoreKit.framework */,
 				ED413FFE1D27A17900D50AE0 /* FBSDKLoginKit.framework */,
 				ED413FFF1D27A17900D50AE0 /* FBSDKShareKit.framework */,
@@ -192,6 +198,7 @@
 				ED96AC731D26F425009F167B /* LaunchScreen.storyboard */,
 				ED96AC761D26F425009F167B /* Info.plist */,
 				ED413FF81D279FF000D50AE0 /* GoogleService-Info.plist */,
+				ED0AAB6B1D2BFE1700B4C40D /* RemoteConfigDefaults.plist */,
 				ED4140091D27F1DF00D50AE0 /* IMG_0101.mp4 */,
 				ED96AC621D26F425009F167B /* Supporting Files */,
 				ED96AC981D270895009F167B /* UBColor.h */,
@@ -241,6 +248,7 @@
 				ED96AC5D1D26F425009F167B /* Resources */,
 				B7BCC8871708358BB01C269E /* [CP] Embed Pods Frameworks */,
 				C73FD06837B809F4BE23CDA5 /* [CP] Copy Pods Resources */,
+				ED0AAB6F1D2C1D5B00B4C40D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -340,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0AAB6C1D2BFE1700B4C40D /* RemoteConfigDefaults.plist in Resources */,
 				ED96AC751D26F425009F167B /* LaunchScreen.storyboard in Resources */,
 				ED413FF91D279FF000D50AE0 /* GoogleService-Info.plist in Resources */,
 				ED96AC721D26F425009F167B /* Assets.xcassets in Resources */,
@@ -484,6 +493,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uncle Bun/Pods-Uncle Bun-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		ED0AAB6F1D2C1D5B00B4C40D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\n# Replace this path with the path to the key you just downloaded\nJSON_FILE=/Users/abbinvarghese/Desktop/PaadamProjects/UncleBun/UncleBun-dec094c74107.json\n\n# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=1:877168109937:ios:e3cb54bbd55af0fe\n\ndefaults write com.google.SymbolUpload version -integer 1   # creates file if it does not exist\nJSON=$(cat \"${JSON_FILE}\")\n/usr/bin/plutil -replace \"app_${GOOGLE_APP_ID//:/_}\" -json \"${JSON}\" \"$HOME/Library/Preferences/com.google.SymbolUpload.plist\"\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym";
 		};
 /* End PBXShellScriptBuildPhase section */
 

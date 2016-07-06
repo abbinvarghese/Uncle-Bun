@@ -50,10 +50,6 @@
     [self.avplayer play];
 }
 
--(BOOL)prefersStatusBarHidden{
-    return YES;
-}
-
 -(void)loginButton:(FBSDKLoginButton *)loginButton didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result error:(NSError *)error{
     if (error == nil && [FBSDKAccessToken currentAccessToken]
         .tokenString) {

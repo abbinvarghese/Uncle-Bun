@@ -63,7 +63,7 @@ NSString *const feedbackFileURLKey              = @"feedbackFileURL";
 #pragma mark - Database Path Keys -
 
 NSString *const fuudPathKey                     = @"fuuds";
-NSString *const storagePathKey                  = @"gs://thefuudapplication.appspot.com/";
+NSString *const storagePathKey                  = @"gs://uncle-bun.appspot.com/";
 NSString *const userPathKey                     = @"users";
 NSString *const messagesPathKey                 = @"messages";
 NSString *const feedbackPathKey                 = @"feedbacks";
@@ -73,5 +73,14 @@ NSString *const feedbackPathKey                 = @"feedbacks";
 #pragma mark - UX Keys -
 
 NSString *const firstCameraLaunchKey            = @"firstCameraLaunch";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#pragma mark - Other Keys -
+
+NSString *const itunesAppUrl            = @"itunesAppUrl";
+NSString *const shareSMSText            = @"shareSMSText";
+NSString *const shareEmailTitle         = @"shareEmailTitle";
+NSString *const shareEmailText          = @"shareEmailText";
 
 @end

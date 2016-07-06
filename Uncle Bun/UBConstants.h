@@ -74,5 +74,13 @@ FOUNDATION_EXPORT NSString *const feedbackPathKey;
 
 FOUNDATION_EXPORT NSString *const firstCameraLaunchKey;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#pragma mark - Other Keys -
+
+FOUNDATION_EXPORT NSString *const itunesAppUrl;
+FOUNDATION_EXPORT NSString *const shareSMSText;
+FOUNDATION_EXPORT NSString *const shareEmailTitle;
+FOUNDATION_EXPORT NSString *const shareEmailText;
 
 @end

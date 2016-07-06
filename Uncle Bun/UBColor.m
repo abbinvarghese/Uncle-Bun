@@ -16,4 +16,9 @@
     return UIColorFromRGB(0xb0000e);
 }
 
++(UIColor*)UBDarkRed{
+    return UIColorFromRGB(0x99000d);
+}
+
+
 @end

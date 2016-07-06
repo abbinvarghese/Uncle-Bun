@@ -12,6 +12,8 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'Firebase/Crash'
+pod 'Firebase/RemoteConfig'
+pod 'GoogleMaps'
 pod 'SDWebImage', '~>3.7'
 
 

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "uncle-bun",
+  "private_key_id": "dec094c7410771f594269a93be601cfe97d4d706",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/2T5/dPdpbm92\nJThPIWjcz4KlDbPyxC/EUTcMnxW2b7kupSYwsLc2e73mrRHYzZDQ3kad9463nvjI\nZiNPrVEtvQHSn2rIx5Y5stCfjjwozuiRQ0Mq4cc86WH5d+8W0GzEMZHKR5HoUg56\nTXChHl+NBfMwCfbmbbycWTdaYyZaievgkjZGbFuQU5G+UXvqpU6RHW+TKWOQ0BoZ\ngz5BHchVa0XWLGe+4gsa3JYlZcH/CMJqepSN5CaYL8Z0kGMiOechAjxlnjCjhnV8\nZXyTC1Pj7PsDNgXTDvQ0MxlFpwpK6W8IYdgswUgWeIexOF9XPso3J1HUTFF/+30d\nL6LGqPE9AgMBAAECggEBAJf/szign3V0/fKJQrfPLJnl/whudugc8AuGnSruz/Ef\nS4TdbAifukj8eVTOQpmXJOmXcjOt8/EfjtSXt9pk4zBt04fgrmYtW6STPB9uPdPH\nOxP8Srcq8wQblHhmwZM9xy8aZvvxAHUkrjvQJzBANEwzLp4dBvVCdHEbbnO6oqSP\nyFTS5h+pAFb8Zq4E3xinGxkjlz0QLf17ymg68zzAAyc7GxqmCRtSesVXJENTspeN\nTfYmSfzTyCNVgGLXffDfiijAw0oCM1lxhTNA6nd1p+E9xN7B618TZu7TkSnW6aTh\nEHj3SCKb1vCtN/lpuqt4jN8ySXSZFlEyxIAvi1Oyv7ECgYEA+FEyOwsZu9sAurXI\nE3siMfvGJ5cv3/2oPqP8zHuVt1wjKxGkzUuVql9FTv8qUGHdIlRjvahn0IpASPbc\nYbrVCOBuwcqoSmmZ4qFMbSYIC+ab2u74SrPEqZaVh0nfVcCiZ8shhljImOxTa3JS\nawzgKyuZYSpe3jZwZjK4ifF8RJMCgYEAxcjJdIYXAcMGsD/qeEirnr3ax6LMb6X1\n+6ngyh+uNRtKGsddKibNV/9IvZAEPCJJ3r4161T15HcPjuIkukSZQJSS3guZrTbX\n5JOPFS67ni0h7BdxIikEzdRAHKLHPAZ8zRdjTKvl8QfZYMN+p5HDknHQCsexpDlO\ntvpNEtxm5O8CgYEA827mR2vCdp9kP6Yl1rNH+qhQwk885+HMJlytX+loBLGW6IoL\nfhczSirLz33nBZZrK1R/01ZdL9vY2a7orgZzApjC+8io4wpTihGG0xoNmV0iPac4\nUkOZ8IdnX5HUGEUY8Zf57bLsNL65qQQSOFAPE0NSwia/iijkV8wxjUnoAXECgYAf\nuvCm4wQ54iHmkLp7BZ2S3/6DXJjTqJpn/37yrlZyaqhe13EY3BTBc1EmKD6lrxKO\ny5E26fBw8LDsSVd/EpZLiApv2QiUg2HrZ8jiqxaqb68rgy9BPbdplg2bCnpQJPJM\nrN3fZQyEuK+lGHfvRjFMAzpPIG5dXFxGeq12wyk2vQKBgCuWmpnKCAe1FEYGF55V\naiN1SANrLTPG6y6KP5rL3Ui9VfdX5yKvtAfEYj73ekuhA1+ZjwTCkuxbyQbHsCtV\nT0kSMWJVp/fUS8KeWbqo3joLAFws0BCebWf9qCSqlr+frVkVqto2QyRlOlVSXY35\n5j+w4XuPpgNembeBu1wBCDo2\n-----END PRIVATE KEY-----\n",
+  "client_email": "symbol-upload-service-account@uncle-bun.iam.gserviceaccount.com",
+  "client_id": "116021721076447165233",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/symbol-upload-service-account%40uncle-bun.iam.gserviceaccount.com"
+}

@@ -11,5 +11,6 @@
 @interface UBColor : UIColor
 
 +(UIColor*)UBRed;
++(UIColor*)UBDarkRed;
 
 @end
